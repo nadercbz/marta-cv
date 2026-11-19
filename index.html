@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marta CV Versionen</title>
+<style>
+  :root { --bg: #f4f1ec; --ink: #1d1b19; --mut: #6f655b; --card: #fff; --line: #e2dbd2; --acc: #b3261e; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #171614; --ink: #f1ece6; --mut: #a39a90; --card: #22201d; --line: #34302c; } }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', sans-serif; background: var(--bg); color: var(--ink); padding: 40px 16px 64px; }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+  h1 { font-size: clamp(28px, 5vw, 44px); letter-spacing: -1px; }
+  .sub { color: var(--mut); margin: 8px 0 32px; font-size: 15px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 22px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+  .card a.prev { display: block; aspect-ratio: 210/297; background: #ddd; overflow: hidden; }
+  .card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s; }
+  .card a.prev:hover img { transform: scale(1.02); }
+  .info { padding: 14px 16px 16px; }
+  .info h2 { font-size: 17px; }
+  .info p { color: var(--mut); font-size: 13px; margin-top: 3px; }
+  .btns { display: flex; gap: 8px; margin-top: 12px; }
+  .btns a { flex: 1; text-align: center; text-decoration: none; font-size: 13px; font-weight: 600; padding: 9px 0; border-radius: 9px; border: 1px solid var(--line); color: var(--ink); }
+  .btns a.dl { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .tabs { display: flex; gap: 6px; margin-bottom: 26px; border-bottom: 1px solid var(--line); }
+  .tabs button { background: none; border: 0; font: inherit; font-size: 15px; font-weight: 600; color: var(--mut); padding: 10px 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .tabs button.on { color: var(--ink); border-color: var(--acc); }
+  section[hidden] { display: none; }
+  .text { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin-bottom: 20px; max-width: 760px; }
+  .thead { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .thead h2 { font-size: 18px; } .thead p { color: var(--mut); font-size: 13px; margin-top: 2px; }
+  .copy { flex: none; font: inherit; font-size: 13px; font-weight: 600; padding: 9px 14px; border-radius: 9px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); cursor: pointer; }
+  .meta { color: var(--mut); font-size: 13px; margin: 14px 0; padding: 10px 12px; border-radius: 9px; background: var(--bg); line-height: 1.6; overflow-wrap: anywhere; }
+  pre { white-space: pre-wrap; font-family: inherit; font-size: 15px; line-height: 1.6; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Marta Rupek · CV</h1>
+  <p class="sub">Karma Yogi Bewerbung bei OPEN Studios Berlin. CVs und alle Texte an einem Ort.</p>
+  <nav class="tabs"><button data-t="cvs" class="on">CVs</button><button data-t="texte">Texte</button></nav>
+  <section id="cvs">
+  <div class="grid">
+    <div class="card"><a class="prev" href="CV_Marta_Rupek_klassik.pdf" target="_blank"><img src="assets/vorschau_klassik.png" alt="Klassik"></a>
+      <div class="info"><h2>Klassik</h2><p>Ruhig, warmes Beige, roter Akzent</p>
+      <div class="btns"><a href="CV_Marta_Rupek_klassik.pdf" target="_blank">Ansehen</a><a class="dl" href="CV_Marta_Rupek_klassik.pdf" download>PDF laden</a></div></div></div>
+    <div class="card"><a class="prev" href="CV_Marta_Rupek_blau.pdf" target="_blank"><img src="assets/vorschau_blau.png" alt="Blau"></a>
+      <div class="info"><h2>Blau</h2><p>Blauer Rahmen, Rosé, Sprachbalken</p>
+      <div class="btns"><a href="CV_Marta_Rupek_blau.pdf" target="_blank">Ansehen</a><a class="dl" href="CV_Marta_Rupek_blau.pdf" download>PDF laden</a></div></div></div>
+    <div class="card"><a class="prev" href="CV_Marta_Rupek_oliv.pdf" target="_blank"><img src="assets/vorschau_oliv.png" alt="Oliv"></a>
+      <div class="info"><h2>Oliv</h2><p>Großer Name, Farbfoto, Skill Pillen</p>
+      <div class="btns"><a href="CV_Marta_Rupek_oliv.pdf" target="_blank">Ansehen</a><a class="dl" href="CV_Marta_Rupek_oliv.pdf" download>PDF laden</a></div></div></div>
+    <div class="card"><a class="prev" href="CV_Marta_Rupek_resume.pdf" target="_blank"><img src="assets/vorschau_resume.png" alt="Resume"></a>
+      <div class="info"><h2>Resume.</h2><p>Raster, Papierkorn, kräftiges Blau</p>
+      <div class="btns"><a href="CV_Marta_Rupek_resume.pdf" target="_blank">Ansehen</a><a class="dl" href="CV_Marta_Rupek_resume.pdf" download>PDF laden</a></div></div></div>
+  </div>
+  </section>
+  <section id="texte" hidden>
+<article class="text"><div class="thead"><div><h2>Bewerbungsmail V2 (aktuell)</h2><p>19.11.2026</p></div><button class="copy">Text kopieren</button></div><div class="meta"><div>An: karmayogi@openstudiosberlin.com</div><div>Betreff: Karma Yogi application, Marta Rupek</div><div>Anhang: CV (eine Version von nadercbz.github.io/marta-cv)</div></div><pre>Hi OPEN team,
+
+my name is Marta Joanna, I&#x27;m 21 and I live in Berlin. I would love to join your Karma Yogi team.
+
+Why OPEN
+What I like most about OPEN is that it doesn&#x27;t feel like a regular Pilates studio. You describe it as a place to move, feel, heal and let go, and you can feel that the moment you walk into one of your studios. Everyone is welcome, no matter who they are. I would love to help keep exactly that feeling alive.
+
+Why Karma Yogi
+A class only really lands when the room is ready for it. Mats lined up, blankets folded, props back in place, a calm moment before the next group comes in, especially before a Sound session. That&#x27;s the part behind the scenes I want to take care of. At Budni and in hotel and event service I learned to keep a place clean, calm and welcoming even on busy days, and to stay calm in stressful situations. I speak German, English and Polish, so I can welcome everyone who comes to OPEN in their own language.
+
+Why me
+Sport has always been a big part of my life. I love moving and I&#x27;m into sports nutrition. Lately I tried several classes at OPEN and I really loved them. Especially the atmosphere: the gong, the singing bowls and the music somehow lead you back to something very natural inside yourself. After work they help me calm down and come back to myself. That&#x27;s exactly why I want to grow in my own practice with you, in yoga and Pilates.
+
+A few quick questions:
+1. Could I help out at 2 to 3 of your studios?
+2. How many shifts per week do you usually expect?
+3. Is it okay to take a week off now and then when I travel?
+4. Can Karma Yogis join Pilates classes too, or only yoga?
+5. If you like the idea, I could film short TikToks while I prepare the studio, like &quot;POV: how I prepare the studio for the next day&quot;, as a small promotion for OPEN. Only if it fits into my shift.
+
+My CV is attached. I&#x27;d be happy to come by for a short chat or a trial shift.
+
+Warm regards,
+Marta Rupek
+0176 45290054
+marta.rupek@gmail.com</pre></article>
+<article class="text"><div class="thead"><div><h2>Bewerbungsmail V1</h2><p>15.11.2026</p></div><button class="copy">Text kopieren</button></div><div class="meta"><div>An: karmayogi@openstudiosberlin.com</div><div>Betreff: Karma Yogi application, Marta Rupek</div><div>Anhang: CV_Marta_Rupek.pdf</div></div><pre>Hi OPEN team,
+
+I saw your post about the Karma Yogi program and I would love to join the team.
+
+I live in Berlin and work in retail at Budni, and before that I worked in hotel and event service and seasonal sales. In all of these jobs I learned how much a clean, calm and welcoming space changes how people feel. Folding blankets, resetting the room and keeping everything in harmony is exactly the kind of care I enjoy, and at the same time I would love to deepen my own practice with you. My CV is attached.
+
+Before we start, I have a few questions:
+
+1. Would it be possible to help out at 2 to 3 of your studios?
+2. How many shifts per week do you usually expect from a Karma Yogi?
+3. Is it okay to take a week off now and then, for example when I travel?
+4. Can Karma Yogis join Pilates classes too, or only yoga classes?
+5. I create content on TikTok. If it fits into my shift and you are happy with it, I could film short clips of myself, for example &quot;POV: how I prepare the studio for the next day&quot;, and post them on my TikTok as a small promotion for OPEN. Only if you like the idea, of course.
+
+I would be happy to come by for a short chat or a trial shift whenever it suits you.
+
+Thank you and warm regards,
+Marta Rupek
+0176 45290054
+marta.rupek@gmail.com</pre></article>
+  </section>
+</div>
+<script>
+function zeig(t){document.querySelectorAll(".tabs button").forEach(b=>b.classList.toggle("on",b.dataset.t===t));document.querySelectorAll("section").forEach(x=>x.hidden=x.id!==t);}
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{zeig(b.dataset.t);history.replaceState(null,"","#"+b.dataset.t);});
+if(location.hash==="#texte")zeig("texte");
+document.querySelectorAll(".copy").forEach(b=>b.onclick=async()=>{const t=b.closest(".text").querySelector("pre").innerText;try{await navigator.clipboard.writeText(t);b.textContent="Kopiert";}catch(e){b.textContent="Bitte markieren";}setTimeout(()=>b.textContent="Text kopieren",1600);});
+</script>
+</body>
+</html>
